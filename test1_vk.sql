@@ -9,7 +9,7 @@ from
 		order by intermed.id)) payment
 	from 
 		(select 
-				payments.payments_id id, 
+		payments.payments_id id, 
                 installs.date install_date, 
                 payments.date final_date, 
                 payments.value value
